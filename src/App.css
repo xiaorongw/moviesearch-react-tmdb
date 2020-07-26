@@ -68,7 +68,7 @@ small {
 
 @media (min-width: 786px) { /* media query: styles in the block will only be taken into account when screen is greater than 786 pixels */
   .form {
-    grid-template-columns: auto 1fr auto; /* Auto on both sides means will take up as much space as it needs for label and button. and in the middle the 1fr means it is going to take up all available space that is left */
+    grid-template-columns: auto 1fr auto; /* Auto on both sides means the two elements at the side (label and button) will take up as much space as they need. And in the middle the 1fr means the middle element is going to take up all available space that is left */
     grid-gap: 1rem;
     align-items: center;
   }
